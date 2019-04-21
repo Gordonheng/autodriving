@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/test_main.dir/test_main.cpp.o  -o test_main libhello_share.a 

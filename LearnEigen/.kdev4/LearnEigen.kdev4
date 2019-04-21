@@ -1,0 +1,44 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/heng/c++_study/slam/vo/autodriving/LearnEigen/build
+Build Type=Debug
+CMake Binary=file:///usr/local/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=
+
+[Defines And Includes][Compiler]
+Name=GCC
+Path=gcc
+Type=GCC
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=learneigen
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x14\x00L\x00e\x00a\x00r\x00n\x00E\x00i\x00g\x00e\x00n\x00\x00\x00\x14\x00l\x00e\x00a\x00r\x00n\x00e\x00i\x00g\x00e\x00n)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///home/heng/c++_study/slam/vo/autodriving/LearnEigen/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=LearnEigen,learneigen
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[Project]
+VersionControlSupport=kdevgit

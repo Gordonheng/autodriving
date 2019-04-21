@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhello_share.a  CMakeFiles/hello_share.dir/hello_libary.cpp.o
+/usr/bin/ranlib libhello_share.a
